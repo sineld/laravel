@@ -64,4 +64,18 @@ return [
         'expire' => 60,
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Throttling User Logins
+    |--------------------------------------------------------------------------
+    |
+    | Here you may set the options for throttling user login attempts.
+    |
+    */
+
+    'throttle' => [
+        'attempts' => 5,
+        'seconds' => 60,
+    ]
+
 ];
